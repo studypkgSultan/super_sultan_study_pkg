@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+		 'first_node = super_sultan_study_pkg.first_node:main',
         ],
     },
 )
